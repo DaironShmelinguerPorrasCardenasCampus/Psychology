@@ -50,14 +50,14 @@ $routerArray = array_filter($routerArray);
 
     <?php
     
-    if(!empty($routerArray[3])){
+    if(!empty($routerArray[5])){
 
-      if($routerArray[3] == "clinicHistory" ||
-        $routerArray[3] == "interviews" ||
-        $routerArray[3] == "psychologists" ||
-        $routerArray[3] == "treatment" ||
-        $routerArray[3] == "users" ){
-          include "views/pages/".$routerArray[3]."/".$routerArray[3].".php";
+      if($routerArray[5] == "clinicHistory" ||
+        $routerArray[5] == "interviews" ||
+        $routerArray[5] == "psychologists" ||
+        $routerArray[5] == "treatment" ||
+        $routerArray[5] == "users" ){
+          include "views/pages/".$routerArray[5]."/".$routerArray[5].".php";
         }else{
           include "views/pages/home/home.php";
         }
@@ -85,8 +85,8 @@ $routerArray = array_filter($routerArray);
 <!-- overlayScrollbars -->
 <script src="views/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="views/assets/dist/js/adminlte.min.js"></script>
+<script src="views/assets/plugins/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="views/assets/dist/js/demo.js"></script>
+<script src="views/assets/plugins/js/demo.js"></script>
 </body>
 </html>
