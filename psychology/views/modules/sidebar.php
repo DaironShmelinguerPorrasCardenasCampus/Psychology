@@ -24,7 +24,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-            <a href="/ArTeM01-045/Proyectos/Psychology/psychology/" class="nav-link <?php if($routerArray[5] == ""):?> active <?php endif  ?>">
+            <a href="/ArTeM01-045/Proyectos/Psychology/psychology/" class="nav-link <?php if($routerArray[5] ==""):?> active <?php endif  ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Home
@@ -86,7 +86,7 @@
 
 
           <li class="nav-item">
-            <a href="/ArTeM01-045/Proyectos/Psychology/psychology/mailbox" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
                 Mailbox

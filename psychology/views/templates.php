@@ -59,7 +59,7 @@ $routerArray = array_filter($routerArray);
         $routerArray[5] == "users" ){
           include "views/pages/".$routerArray[5]."/".$routerArray[5].".php";
         }else{
-          include "views/pages/home/home.php";
+          include "views/pages/home/Home.php";
         }
     }
     
